@@ -8,6 +8,12 @@ mvn clean package tomee:run
 http://localhost:8080/empconfigtry
 http://localhost:8080/empconfigtry/msg
 ```
+
+in another command prompt
+
+```
+mvn tomee:stop
+```
 either download openliberty zip with microprofile classifier manually, configure it and deploy war there *or*
 checkout openliberty config *src/main/liberty/config/server.xml* </br>
 configure *pom.xml* for openliberty server </br>
@@ -20,4 +26,22 @@ http://localhost:9080/openapi/
 http://localhost:9080/openapi/ui/
 http://localhost:9080/health/
 http://localhost:9080/metrics/
+```
+
+it's already using default default keystore, ssl certificates
+
+```
+https://localhost:9444/openapi/ui/
+
+```
+in another cmd
+
+```
+mvn liberty:stop
+```
+
+also explore
+
+```
+mvn liberty:dev
 ```
