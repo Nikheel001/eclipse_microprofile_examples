@@ -1,0 +1,6 @@
+[
+{"name":"headshot","password":"1234","groups":["admin"]},
+{"name":"user1","password":"abcd","groups":["guest"]},
+{"name":"test","password":"blabla","groups":["guest"]},
+{"name":"joker","password":"hahahaha","groups":["admin"]}
+]

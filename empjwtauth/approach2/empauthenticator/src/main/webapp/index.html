@@ -1,0 +1,25 @@
+<html>
+<head>
+<title> Security Login Page </title>
+</head>
+<body>
+  <h2>Form Login</h2>
+  <table>
+        <tbody><tr>
+            <td style="width:100px">Count: </td>
+            <td id="count" style="font-size:24pt;font-weight:bold;">43</td>
+        </tr>
+    </tbody>
+	</table>
+  <script type="text/javascript">
+    // Force safari to refresh the page
+    // if a cached copy was loaded
+    // from the browser back-forward cache.
+    window.onpageshow = function(e) {
+      if (e.persisted) {
+        window.location.reload();
+      }
+    }
+  </script>
+</body>
+</html>
